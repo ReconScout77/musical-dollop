@@ -1,9 +1,11 @@
 body {
   text-align: center;
   letter-spacing: 5px;
-
 }
-
+.top {
+  margin-top: 30px;
+  letter-spacing: .5px;
+}
 .display1, .display2 {
   border: solid;
   padding: 30px;
