@@ -1,4 +1,8 @@
-.displayNumber {
+.display1, .display2 {
   border: solid;
   padding: 30px;
+}
+
+#player2 {
+  display: none;
 }
