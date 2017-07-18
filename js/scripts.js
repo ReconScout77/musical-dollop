@@ -29,6 +29,7 @@ $(function() {
     event.preventDefault();
     p1Score += roundScore;
     roundScore = 0;
+    $("#p1Total").text(p1Score);
     $("#player1").toggle();
     $("#player2").toggle();
 
@@ -56,6 +57,7 @@ $(function() {
     event.preventDefault();
     p2Score += roundScore;
     roundScore = 0;
+    $("#p2Total").text(p2Score);
     $("#player1").toggle();
     $("#player2").toggle();
 

@@ -1,8 +1,43 @@
+body {
+  text-align: center;
+  letter-spacing: 5px;
+
+}
+
 .display1, .display2 {
   border: solid;
   padding: 30px;
+  font-size: 40px;
+  margin: 30px 400px 0 400px;
+}
+
+.display1 {
+  background-color: #fcbaa5
+}
+
+.display2 {
+  background-color: #a5bafc
 }
 
 #player2 {
   display: none;
+}
+
+.results, .results2 {
+  font-size: 40px;
+  border: solid;
+  margin: 30px 400px 20px 400px;
+  background-color: #99e8aa;
+}
+
+button {
+  margin: 10px;
+}
+
+#p1Total, #p2Total {
+  border: solid;
+  padding: 30px;
+  font-size: 40px;
+  margin: 30px 150px 0 150px;
+  background-color: #f0f285;
 }
